@@ -94,9 +94,6 @@ while True:
 
 		if ball.y < 0 or ball.y + 51 > 800:
 			ball.yvel = -ball.yvel
-		
-		if ball.y < 0 or ball.y + 51 > 800:
-			ball.yvel = -ball.yvel
 
 		if paddle1.y < 0:
 			paddle1.y = 0
